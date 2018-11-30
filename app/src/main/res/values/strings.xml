@@ -2,5 +2,8 @@
     <string name="app_name">Food_select_101</string>
     <string name="start_msg">wogal heck and pugle heck 169</string>
     <string name="str_chose_location">Chose Location</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Wogal\'s  fragment</string>
 </resources>
 

@@ -7,39 +7,41 @@
 
     <ImageView
         android:id="@+id/iv_logo_top"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#ffaa00"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="84dp"
+        android:background="#ffaa00"
         android:src="@drawable/logo_100"/>
 
     <ImageView
         android:id="@+id/iv_logo_bottom"
-        android:layout_below="@id/iv_logo_top"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#ffaa00"
-        android:layout_marginTop="0dp"
+        android:layout_below="@id/iv_logo_top"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:background="#ffaa00"
         android:src="@drawable/logo_botumg"/>
 
     <Button
         android:id="@+id/but_chose"
-        android:layout_marginTop="20dp"
-        android:textSize="@dimen/chose_button_text_size"
-        android:textAllCaps="false"
-        android:textStyle="italic|bold"
-        android:fontFamily="sans-serif"
-        android:background="@drawable/btn_chose_location"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/iv_logo_bottom"
-        android:text="@string/str_chose_location"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_chose_location"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/str_chose_location"
+        android:textAllCaps="false"
+        android:textSize="@dimen/chose_button_text_size"
+        android:textStyle="italic|bold"/>
+
+
 
 
 </RelativeLayout>

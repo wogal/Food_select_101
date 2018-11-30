@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_test">
+
+    <TextView
+        android:textAlignment="center"
+        android:fontFamily="@font/baltimore_comic"
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="73dp"
+        android:text="Hi Wogal "
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="204dp"/>
+    <Button
+        android:id="@+id/test_button"
+        android:text="Make Phone Call"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</android.widget.RelativeLayout>
